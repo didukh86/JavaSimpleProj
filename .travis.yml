@@ -1,4 +1,7 @@
 language: java
+os: linux
+dist:ubuntu 20.04
+
 script: mvn clean 
 script:	mvn package
 
