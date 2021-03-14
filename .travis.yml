@@ -1,2 +1,11 @@
+arch: amd64
+
 language: java
-version: openjdk-8-jdk
+
+jdk: 
+	-openjdk-8-jdk
+
+script:
+	- java --version
+	- ./mvn clean
+	- ./mvn build
