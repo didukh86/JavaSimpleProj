@@ -1,3 +1,4 @@
 language: java
-script: mvn install clean package
+script: - mvn clean 
+	- mvn package
 
